@@ -1,4 +1,7 @@
-const DisplayInfo = ({ onClick }) => {
+const DisplayInfo = (props) => {
+  console.log(props)
+  const { onClick } = props;
+
   return (
     <div>
       <p>This is my info!</p>
